@@ -11,6 +11,7 @@
 typedef NS_ENUM(NSInteger, FileFormat) {
     FileFormat_Unknow = -1,
     FileFormat_Text,
+    FileFormat_SourceCode,
     FileFormat_Video,
     FileFormat_Audio,
     FileFormat_Image,

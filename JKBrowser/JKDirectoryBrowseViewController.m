@@ -9,6 +9,8 @@
 #import "JKDirectoryBrowseViewController.h"
 #import "JKFile.h"
 #import "JKFileCell.h"
+#import "JKMicros.h"
+#import "JKTextFileViewController.h"
 
 @interface JKDirectoryBrowseViewController ()
 
@@ -64,13 +66,31 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)openFile:(JKFile *)file {
+- (void)viewFile:(JKFile *)file {
     if(file.isDirectory) {
         JKDirectoryBrowseViewController *browser = [[JKDirectoryBrowseViewController alloc] initWithPath:file.path];
         [self.navigationController pushViewController:browser animated:YES];
     }
     else {
-       
+        [self viewFormatFile:file];
+    }
+}
+
+- (void)viewFormatFile:(JKFile *)file {
+    switch (file.format) {
+        case FileFormat_Text: {
+             JKTextFileViewController *c = [[JKTextFileViewController alloc] initWithFile:file];
+            [self.navigationController pushViewController:c animated:YES];
+        }
+            break;
+        case FileFormat_Unknow: {
+            alert(@"暂不支持打开该格式文件");
+        }
+            break;
+        default: {
+            alert(@"暂不支持打开该格式文件");
+        }
+            break;
     }
 }
 
@@ -86,7 +106,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     JKFile *file = _subFiles[indexPath.row];
-    [self openFile:file];
+    [self viewFile:file];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

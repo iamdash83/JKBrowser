@@ -63,10 +63,12 @@
 
 - (FileFormat)format {
     NSString *ext = _path.pathExtension;
-    if([@[] containsObject:ext]) return FileFormat_Text;
-    else if([@[] containsObject:ext]) return FileFormat_Text;
-    else if([@[] containsObject:ext]) return FileFormat_Text;
-    else if([@[] containsObject:ext]) return FileFormat_Text;
+    if([@[@"txt",@"text"] containsObject:ext]) return FileFormat_Text;
+    else if([@[@"c",@"h",@"c++",@"hpp",@"cpp",@"m",@"mm",@"html",@"js",@"php",@"java"] containsObject:ext]) return FileFormat_SourceCode;
+    else if([@[@"mp4",@"rmvb"] containsObject:ext]) return FileFormat_Video;
+    else if([@[@"mp3",@"amr",@"wav"] containsObject:ext]) return FileFormat_Audio;
+    else if([@[@"png",@"jpeg",@"jpg"] containsObject:ext]) return FileFormat_Image;
+    else if([@[@"sqlite"] containsObject:ext]) return FileFormat_Database;
     else return FileFormat_Unknow;
 }
 
