@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91355EE91C743E4100184F8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355EE81C743E4100184F8F /* main.m */; };
+		91355EEC1C743E4100184F8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355EEB1C743E4100184F8F /* AppDelegate.m */; };
+		91355EF41C743E4100184F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91355EF31C743E4100184F8F /* Assets.xcassets */; };
+		91355F061C7440C700184F8F /* JKDirectoryBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F051C7440C700184F8F /* JKDirectoryBrowseViewController.m */; };
+		91355F091C7440EF00184F8F /* JKFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F081C7440EF00184F8F /* JKFileCell.m */; };
+		91355F0C1C74410200184F8F /* JKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F0B1C74410200184F8F /* JKFile.m */; };
+		91355F0F1C74482D00184F8F /* UIApplication+JK.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F0E1C74482D00184F8F /* UIApplication+JK.m */; };
+		91355F1E1C7455C100184F8F /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F181C7455C100184F8F /* folder@2x.png */; };
+		91355F1F1C7455C100184F8F /* mp3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F191C7455C100184F8F /* mp3@2x.png */; };
+		91355F201C7455C100184F8F /* mp4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F1A1C7455C100184F8F /* mp4@2x.png */; };
+		91355F211C7455C100184F8F /* sqlite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F1B1C7455C100184F8F /* sqlite@2x.png */; };
+		91355F221C7455C100184F8F /* txt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F1C1C7455C100184F8F /* txt@2x.png */; };
+		91355F231C7455C100184F8F /* unknow_file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F1D1C7455C100184F8F /* unknow_file@2x.png */; };
+		91355F291C74574800184F8F /* h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F241C74574800184F8F /* h@2x.png */; };
+		91355F2A1C74574800184F8F /* jpeg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F251C74574800184F8F /* jpeg@2x.png */; };
+		91355F2B1C74574800184F8F /* m@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F261C74574800184F8F /* m@2x.png */; };
+		91355F2C1C74574800184F8F /* pdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F271C74574800184F8F /* pdf@2x.png */; };
+		91355F2D1C74574800184F8F /* png@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91355F281C74574800184F8F /* png@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91355EE41C743E4100184F8F /* JKBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91355EE81C743E4100184F8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91355EEA1C743E4100184F8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91355EEB1C743E4100184F8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91355EF31C743E4100184F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91355EF81C743E4100184F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91355F041C7440C700184F8F /* JKDirectoryBrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDirectoryBrowseViewController.h; sourceTree = "<group>"; };
+		91355F051C7440C700184F8F /* JKDirectoryBrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDirectoryBrowseViewController.m; sourceTree = "<group>"; };
+		91355F071C7440EF00184F8F /* JKFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFileCell.h; sourceTree = "<group>"; };
+		91355F081C7440EF00184F8F /* JKFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFileCell.m; sourceTree = "<group>"; };
+		91355F0A1C74410200184F8F /* JKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFile.h; sourceTree = "<group>"; };
+		91355F0B1C74410200184F8F /* JKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFile.m; sourceTree = "<group>"; };
+		91355F0D1C74482D00184F8F /* UIApplication+JK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JK.h"; sourceTree = "<group>"; };
+		91355F0E1C74482D00184F8F /* UIApplication+JK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JK.m"; sourceTree = "<group>"; };
+		91355F181C7455C100184F8F /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
+		91355F191C7455C100184F8F /* mp3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mp3@2x.png"; sourceTree = "<group>"; };
+		91355F1A1C7455C100184F8F /* mp4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mp4@2x.png"; sourceTree = "<group>"; };
+		91355F1B1C7455C100184F8F /* sqlite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sqlite@2x.png"; sourceTree = "<group>"; };
+		91355F1C1C7455C100184F8F /* txt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "txt@2x.png"; sourceTree = "<group>"; };
+		91355F1D1C7455C100184F8F /* unknow_file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unknow_file@2x.png"; sourceTree = "<group>"; };
+		91355F241C74574800184F8F /* h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h@2x.png"; sourceTree = "<group>"; };
+		91355F251C74574800184F8F /* jpeg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jpeg@2x.png"; sourceTree = "<group>"; };
+		91355F261C74574800184F8F /* m@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m@2x.png"; sourceTree = "<group>"; };
+		91355F271C74574800184F8F /* pdf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf@2x.png"; sourceTree = "<group>"; };
+		91355F281C74574800184F8F /* png@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91355EE11C743E4100184F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91355EDB1C743E4100184F8F = {
+			isa = PBXGroup;
+			children = (
+				91355EE61C743E4100184F8F /* JKBrowser */,
+				91355EE51C743E4100184F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91355EE51C743E4100184F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91355EE41C743E4100184F8F /* JKBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91355EE61C743E4100184F8F /* JKBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				91355F181C7455C100184F8F /* folder@2x.png */,
+				91355F241C74574800184F8F /* h@2x.png */,
+				91355F251C74574800184F8F /* jpeg@2x.png */,
+				91355F261C74574800184F8F /* m@2x.png */,
+				91355F271C74574800184F8F /* pdf@2x.png */,
+				91355F281C74574800184F8F /* png@2x.png */,
+				91355F191C7455C100184F8F /* mp3@2x.png */,
+				91355F1A1C7455C100184F8F /* mp4@2x.png */,
+				91355F1B1C7455C100184F8F /* sqlite@2x.png */,
+				91355F1C1C7455C100184F8F /* txt@2x.png */,
+				91355F1D1C7455C100184F8F /* unknow_file@2x.png */,
+				91355EEA1C743E4100184F8F /* AppDelegate.h */,
+				91355EEB1C743E4100184F8F /* AppDelegate.m */,
+				91355EF31C743E4100184F8F /* Assets.xcassets */,
+				91355EF81C743E4100184F8F /* Info.plist */,
+				91355EE71C743E4100184F8F /* Supporting Files */,
+				91355F041C7440C700184F8F /* JKDirectoryBrowseViewController.h */,
+				91355F051C7440C700184F8F /* JKDirectoryBrowseViewController.m */,
+				91355F071C7440EF00184F8F /* JKFileCell.h */,
+				91355F081C7440EF00184F8F /* JKFileCell.m */,
+				91355F0A1C74410200184F8F /* JKFile.h */,
+				91355F0B1C74410200184F8F /* JKFile.m */,
+				91355F0D1C74482D00184F8F /* UIApplication+JK.h */,
+				91355F0E1C74482D00184F8F /* UIApplication+JK.m */,
+			);
+			path = JKBrowser;
+			sourceTree = "<group>";
+		};
+		91355EE71C743E4100184F8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91355EE81C743E4100184F8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91355EE31C743E4100184F8F /* JKBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91355EFB1C743E4100184F8F /* Build configuration list for PBXNativeTarget "JKBrowser" */;
+			buildPhases = (
+				91355EE01C743E4100184F8F /* Sources */,
+				91355EE11C743E4100184F8F /* Frameworks */,
+				91355EE21C743E4100184F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKBrowser;
+			productName = JKBrowser;
+			productReference = 91355EE41C743E4100184F8F /* JKBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91355EDC1C743E4100184F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = renjinkui;
+				TargetAttributes = {
+					91355EE31C743E4100184F8F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 91355EDF1C743E4100184F8F /* Build configuration list for PBXProject "JKBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91355EDB1C743E4100184F8F;
+			productRefGroup = 91355EE51C743E4100184F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91355EE31C743E4100184F8F /* JKBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91355EE21C743E4100184F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91355F2A1C74574800184F8F /* jpeg@2x.png in Resources */,
+				91355F211C7455C100184F8F /* sqlite@2x.png in Resources */,
+				91355F2C1C74574800184F8F /* pdf@2x.png in Resources */,
+				91355F201C7455C100184F8F /* mp4@2x.png in Resources */,
+				91355F1F1C7455C100184F8F /* mp3@2x.png in Resources */,
+				91355F1E1C7455C100184F8F /* folder@2x.png in Resources */,
+				91355F231C7455C100184F8F /* unknow_file@2x.png in Resources */,
+				91355F2B1C74574800184F8F /* m@2x.png in Resources */,
+				91355F2D1C74574800184F8F /* png@2x.png in Resources */,
+				91355F291C74574800184F8F /* h@2x.png in Resources */,
+				91355EF41C743E4100184F8F /* Assets.xcassets in Resources */,
+				91355F221C7455C100184F8F /* txt@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91355EE01C743E4100184F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91355F0C1C74410200184F8F /* JKFile.m in Sources */,
+				91355F061C7440C700184F8F /* JKDirectoryBrowseViewController.m in Sources */,
+				91355EEC1C743E4100184F8F /* AppDelegate.m in Sources */,
+				91355F0F1C74482D00184F8F /* UIApplication+JK.m in Sources */,
+				91355F091C7440EF00184F8F /* JKFileCell.m in Sources */,
+				91355EE91C743E4100184F8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91355EF91C743E4100184F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91355EFA1C743E4100184F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91355EFC1C743E4100184F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeme.JKBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91355EFD1C743E4100184F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeme.JKBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91355EDF1C743E4100184F8F /* Build configuration list for PBXProject "JKBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91355EF91C743E4100184F8F /* Debug */,
+				91355EFA1C743E4100184F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91355EFB1C743E4100184F8F /* Build configuration list for PBXNativeTarget "JKBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91355EFC1C743E4100184F8F /* Debug */,
+				91355EFD1C743E4100184F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91355EDC1C743E4100184F8F /* Project object */;
+}
