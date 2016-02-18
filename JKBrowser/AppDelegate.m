@@ -10,6 +10,7 @@
 #import "JKFile.h"
 #import "JKDirectoryBrowseViewController.h"
 #import "UIApplication+JK.h"
+#import "JKFlatMenuBar.h"
 
 @interface AppDelegate ()
 
@@ -27,7 +28,28 @@
     [rootNavController pushViewController:bowser animated:NO];
     _window.rootViewController = rootNavController;
     [_window makeKeyAndVisible];
+    
+//    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(200, 200, 40, 40)];
+//    v.backgroundColor = [UIColor redColor];
+//    [_window addSubview:v];
+//    
+//    UIPanGestureRecognizer *panGr = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
+//    [v addGestureRecognizer:panGr];
+    
+//    JKFlatMenuBar *bar = [[JKFlatMenuBar alloc] initWithFrame:CGRectMake(100, 100, 60, 50) menus:@[@(MenuId_GoLine),@(MenuId_SearchText),@(MenuId_ScrollLine_Backward),@(MenuId_ScrollLine_Forward),@(MenuId_ScrollPage_Backward),@(MenuId_ScrollPage_Forward),@(MenuId_ScrollToTop),@(MenuId_ScrollToBottom)]];
+//    [_window addSubview:bar];
+    
     return YES;
+}
+
+- (void)handlePan:(UIPanGestureRecognizer *)pan {
+    CGPoint translation = [pan translationInView:_window];
+    CGPoint velocity = [pan velocityInView:_window];
+    //NSLog(@"translation : %@", NSStringFromCGPoint(translation));
+    //NSLog(@"velocity : %@", NSStringFromCGPoint(velocity));
+    pan.view.frame = CGRectMake(pan.view.frame.origin.x + translation.x, pan.view.frame.origin.y + translation.y, pan.view.frame.size.width, pan.view.frame.size.height);
+    [pan setTranslation:CGPointZero inView:_window];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

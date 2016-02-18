@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <sqlite3.h>
 
 typedef NS_ENUM(NSInteger, FileFormat) {
     FileFormat_Unknow = -1,

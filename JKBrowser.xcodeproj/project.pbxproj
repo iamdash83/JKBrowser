@@ -28,6 +28,10 @@
 		91355F361C7466F300184F8F /* JKTextFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F351C7466F300184F8F /* JKTextFileView.m */; };
 		91355F391C74671200184F8F /* JKTextFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F381C74671200184F8F /* JKTextFileViewController.m */; };
 		91355F3E1C747B7600184F8F /* JKFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91355F3D1C747B7600184F8F /* JKFileViewController.m */; };
+		915ECBAF1C7556B0007B441C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915ECBAE1C7556B0007B441C /* Default-568h@2x.png */; };
+		915ECBB21C755D7F007B441C /* JKFlatMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 915ECBB11C755D7F007B441C /* JKFlatMenuBar.m */; };
+		915ECBB91C757514007B441C /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915ECBB71C757514007B441C /* arrow_down@2x.png */; };
+		915ECBBA1C757514007B441C /* arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915ECBB81C757514007B441C /* arrow_up@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +67,11 @@
 		91355F3A1C74733800184F8F /* JKMicros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMicros.h; sourceTree = "<group>"; };
 		91355F3C1C747B7600184F8F /* JKFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFileViewController.h; sourceTree = "<group>"; };
 		91355F3D1C747B7600184F8F /* JKFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFileViewController.m; sourceTree = "<group>"; };
+		915ECBAE1C7556B0007B441C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		915ECBB01C755D7F007B441C /* JKFlatMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFlatMenuBar.h; sourceTree = "<group>"; };
+		915ECBB11C755D7F007B441C /* JKFlatMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFlatMenuBar.m; sourceTree = "<group>"; };
+		915ECBB71C757514007B441C /* arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@2x.png"; sourceTree = "<group>"; };
+		915ECBB81C757514007B441C /* arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +104,9 @@
 		91355EE61C743E4100184F8F /* JKBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				915ECBAE1C7556B0007B441C /* Default-568h@2x.png */,
+				915ECBB71C757514007B441C /* arrow_down@2x.png */,
+				915ECBB81C757514007B441C /* arrow_up@2x.png */,
 				91355F181C7455C100184F8F /* folder@2x.png */,
 				91355F241C74574800184F8F /* h@2x.png */,
 				91355F251C74574800184F8F /* jpeg@2x.png */,
@@ -126,6 +138,8 @@
 				91355F3A1C74733800184F8F /* JKMicros.h */,
 				91355F3C1C747B7600184F8F /* JKFileViewController.h */,
 				91355F3D1C747B7600184F8F /* JKFileViewController.m */,
+				915ECBB01C755D7F007B441C /* JKFlatMenuBar.h */,
+				915ECBB11C755D7F007B441C /* JKFlatMenuBar.m */,
 			);
 			path = JKBrowser;
 			sourceTree = "<group>";
@@ -203,8 +217,11 @@
 				91355F1F1C7455C100184F8F /* mp3@2x.png in Resources */,
 				91355F1E1C7455C100184F8F /* folder@2x.png in Resources */,
 				91355F231C7455C100184F8F /* unknow_file@2x.png in Resources */,
+				915ECBBA1C757514007B441C /* arrow_up@2x.png in Resources */,
 				91355F2B1C74574800184F8F /* m@2x.png in Resources */,
+				915ECBB91C757514007B441C /* arrow_down@2x.png in Resources */,
 				91355F2D1C74574800184F8F /* png@2x.png in Resources */,
+				915ECBAF1C7556B0007B441C /* Default-568h@2x.png in Resources */,
 				91355F291C74574800184F8F /* h@2x.png in Resources */,
 				91355EF41C743E4100184F8F /* Assets.xcassets in Resources */,
 				91355F221C7455C100184F8F /* txt@2x.png in Resources */,
@@ -226,6 +243,7 @@
 				91355F0F1C74482D00184F8F /* UIApplication+JK.m in Sources */,
 				91355F091C7440EF00184F8F /* JKFileCell.m in Sources */,
 				91355F391C74671200184F8F /* JKTextFileViewController.m in Sources */,
+				915ECBB21C755D7F007B441C /* JKFlatMenuBar.m in Sources */,
 				91355EE91C743E4100184F8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +374,7 @@
 				91355EFD1C743E4100184F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

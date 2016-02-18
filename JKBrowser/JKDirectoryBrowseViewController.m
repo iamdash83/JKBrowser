@@ -78,7 +78,8 @@
 
 - (void)viewFormatFile:(JKFile *)file {
     switch (file.format) {
-        case FileFormat_Text: {
+        case FileFormat_Text:
+        case FileFormat_SourceCode:{
              JKTextFileViewController *c = [[JKTextFileViewController alloc] initWithFile:file];
             [self.navigationController pushViewController:c animated:YES];
         }

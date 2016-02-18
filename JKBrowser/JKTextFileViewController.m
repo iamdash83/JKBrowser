@@ -11,7 +11,6 @@
 
 @interface JKTextFileViewController ()
 
-
 @end
 
 @implementation JKTextFileViewController
